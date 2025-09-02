@@ -1,0 +1,17 @@
+export const HttpResponse = {
+    SERVER_ERROR: "Internel server error",
+    EMAIL_REQUIRED: "Email is required",
+    MISSING_FIELDS: "Missing required fields",
+    USER_ID_NOT_FOUND: "User ID not found",
+    USER_EXISTS: "User already exists",
+    USER_INSERT_ERROR: "Error adding user",
+    USER_ADDED: "User added successfully",
+    USER_NOT_FOUND: "User not found",
+    PASSWORD_INCORRECT: "Incorrect password",
+    NO_ACCESS_TOKEN : "Token not provided",
+    NO_REFRESH_TOKEN: "Refresh token not provided",
+    NO_DECODED_TOKEN: "Couldn't decode token",
+    ACCESS_TOKEN_EXPIRED: "Access token expired",
+    ACCESS_DENIED: "Access denied",
+    FORM_SUBMITTED: "Form submitted successfully",
+}

@@ -1,0 +1,2009 @@
+[2025-08-30 13:10:05] error: uncaughtException: PORT is not found in the env
+Error: PORT is not found in the env
+    at validateEnv (C:\Users\User\Coding Items\Orbit-backend\src\utils\env-config.util.ts:5:15)
+    at Object.<anonymous> (C:\Users\User\Coding Items\Orbit-backend\src\index.ts:7:12)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at phase4 (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\bin.ts:649:14) 
+Stack Trace: Error: PORT is not found in the env
+    at validateEnv (C:\Users\User\Coding Items\Orbit-backend\src\utils\env-config.util.ts:5:15)
+    at Object.<anonymous> (C:\Users\User\Coding Items\Orbit-backend\src\index.ts:7:12)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at phase4 (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\bin.ts:649:14)
+[2025-08-30 13:10:16] error: uncaughtException: PORT is not found in the env
+Error: PORT is not found in the env
+    at validateEnv (C:\Users\User\Coding Items\Orbit-backend\src\utils\env-config.util.ts:5:15)
+    at Object.<anonymous> (C:\Users\User\Coding Items\Orbit-backend\src\index.ts:7:12)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at phase4 (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\bin.ts:649:14) 
+Stack Trace: Error: PORT is not found in the env
+    at validateEnv (C:\Users\User\Coding Items\Orbit-backend\src\utils\env-config.util.ts:5:15)
+    at Object.<anonymous> (C:\Users\User\Coding Items\Orbit-backend\src\index.ts:7:12)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at phase4 (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\bin.ts:649:14)
+[2025-08-30 13:43:01] error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\User\Coding Items\Orbit-backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (C:\Users\User\Coding Items\Orbit-backend\src\index.ts:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at phase4 (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\bin.ts:649:14) 
+Stack Trace: TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\User\Coding Items\Orbit-backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (C:\Users\User\Coding Items\Orbit-backend\src\index.ts:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at phase4 (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\bin.ts:649:14)
+[2025-09-01 10:45:36] error: uncaughtException: FROMTEND_URL is not found in the env
+Error: FROMTEND_URL is not found in the env
+    at validateEnv (C:\Users\User\Coding Items\Orbit-backend\src\utils\env-config.util.ts:11:15)
+    at Object.<anonymous> (C:\Users\User\Coding Items\Orbit-backend\src\index.ts:12:12)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at phase4 (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\bin.ts:649:14) 
+Stack Trace: Error: FROMTEND_URL is not found in the env
+    at validateEnv (C:\Users\User\Coding Items\Orbit-backend\src\utils\env-config.util.ts:11:15)
+    at Object.<anonymous> (C:\Users\User\Coding Items\Orbit-backend\src\index.ts:12:12)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at phase4 (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\bin.ts:649:14)
+[2025-09-01 10:50:38] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(user: IUser): Promise<IUser> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m33[0m:[93m84[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m33[0m         if(!existingUser) throw createHttpError(HttpStatus.NOT_FOUND, HttpResponse.)
+[7m  [0m [91m                                                                                   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(user: IUser): Promise<IUser> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m33[0m:[93m84[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m33[0m         if(!existingUser) throw createHttpError(HttpStatus.NOT_FOUND, HttpResponse.)
+[7m  [0m [91m                                                                                   ~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(user: IUser): Promise<IUser> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m33[0m:[93m84[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m33[0m         if(!existingUser) throw createHttpError(HttpStatus.NOT_FOUND, HttpResponse.)
+[7m  [0m [91m                                                                                   ~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 10:51:18] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(user: IUser): Promise<IUser> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(user: IUser): Promise<IUser> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(user: IUser): Promise<IUser> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 10:52:09] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(user: IUser): Promise<IUser> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m35[0m:[93m32[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.
+
+[7m35[0m         const isPasswordOkay = comparePassword()
+[7m  [0m [91m                               ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/utils/bcrypt.util.ts[0m:[93m8[0m:[93m39[0m
+    [7m8[0m export async function comparePassword(password: string, hashedPassword: string): Promise<boolean> {
+    [7m [0m [96m                                      ~~~~~~~~~~~~~~~~[0m
+    An argument for 'password' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(user: IUser): Promise<IUser> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m35[0m:[93m32[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.
+
+[7m35[0m         const isPasswordOkay = comparePassword()
+[7m  [0m [91m                               ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/utils/bcrypt.util.ts[0m:[93m8[0m:[93m39[0m
+    [7m8[0m export async function comparePassword(password: string, hashedPassword: string): Promise<boolean> {
+    [7m [0m [96m                                      ~~~~~~~~~~~~~~~~[0m
+    An argument for 'password' was not provided.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(user: IUser): Promise<IUser> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m35[0m:[93m32[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.
+
+[7m35[0m         const isPasswordOkay = comparePassword()
+[7m  [0m [91m                               ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/utils/bcrypt.util.ts[0m:[93m8[0m:[93m39[0m
+    [7m8[0m export async function comparePassword(password: string, hashedPassword: string): Promise<boolean> {
+    [7m [0m [96m                                      ~~~~~~~~~~~~~~~~[0m
+    An argument for 'password' was not provided.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 10:53:19] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m16[0m - [91merror[0m[90m TS2345: [0mArgument of type 'boolean' is not assignable to parameter of type 'ServiceIdentifier | LazyServiceIdentifier<unknown>'.
+
+[7m37[0m         inject(!isPasswordOkay) throw createHttpError(HttpStatus.)
+[7m  [0m [91m               ~~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m39[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m37[0m         inject(!isPasswordOkay) throw createHttpError(HttpStatus.)
+[7m  [0m [91m                                      ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/utils/http-error.util.ts[0m:[93m11[0m:[93m53[0m
+    [7m11[0m export const createHttpError = (statusCode: number, message: string) => {
+    [7m  [0m [96m                                                    ~~~~~~~~~~~~~~~[0m
+    An argument for 'message' was not provided.
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m37[0m         inject(!isPasswordOkay) throw createHttpError(HttpStatus.)
+[7m  [0m [91m                                ~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m66[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         inject(!isPasswordOkay) throw createHttpError(HttpStatus.)
+[7m  [0m [91m                                                                 ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m16[0m - [91merror[0m[90m TS2345: [0mArgument of type 'boolean' is not assignable to parameter of type 'ServiceIdentifier | LazyServiceIdentifier<unknown>'.
+
+[7m37[0m         inject(!isPasswordOkay) throw createHttpError(HttpStatus.)
+[7m  [0m [91m               ~~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m39[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m37[0m         inject(!isPasswordOkay) throw createHttpError(HttpStatus.)
+[7m  [0m [91m                                      ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/utils/http-error.util.ts[0m:[93m11[0m:[93m53[0m
+    [7m11[0m export const createHttpError = (statusCode: number, message: string) => {
+    [7m  [0m [96m                                                    ~~~~~~~~~~~~~~~[0m
+    An argument for 'message' was not provided.
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m37[0m         inject(!isPasswordOkay) throw createHttpError(HttpStatus.)
+[7m  [0m [91m                                ~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m66[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         inject(!isPasswordOkay) throw createHttpError(HttpStatus.)
+[7m  [0m [91m                                                                 ~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m16[0m - [91merror[0m[90m TS2345: [0mArgument of type 'boolean' is not assignable to parameter of type 'ServiceIdentifier | LazyServiceIdentifier<unknown>'.
+
+[7m37[0m         inject(!isPasswordOkay) throw createHttpError(HttpStatus.)
+[7m  [0m [91m               ~~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m39[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m37[0m         inject(!isPasswordOkay) throw createHttpError(HttpStatus.)
+[7m  [0m [91m                                      ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/utils/http-error.util.ts[0m:[93m11[0m:[93m53[0m
+    [7m11[0m export const createHttpError = (statusCode: number, message: string) => {
+    [7m  [0m [96m                                                    ~~~~~~~~~~~~~~~[0m
+    An argument for 'message' was not provided.
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m37[0m         inject(!isPasswordOkay) throw createHttpError(HttpStatus.)
+[7m  [0m [91m                                ~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m66[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         inject(!isPasswordOkay) throw createHttpError(HttpStatus.)
+[7m  [0m [91m                                                                 ~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 10:54:36] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m16[0m - [91merror[0m[90m TS2345: [0mArgument of type 'boolean' is not assignable to parameter of type 'ServiceIdentifier | LazyServiceIdentifier<unknown>'.
+
+[7m37[0m         inject(!isPasswordMatch) throw createHttpError(HttpStatus.UNAUTHORIZED, HttpResponse.)
+[7m  [0m [91m               ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m34[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m37[0m         inject(!isPasswordMatch) throw createHttpError(HttpStatus.UNAUTHORIZED, HttpResponse.)
+[7m  [0m [91m                                 ~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m94[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         inject(!isPasswordMatch) throw createHttpError(HttpStatus.UNAUTHORIZED, HttpResponse.)
+[7m  [0m [91m                                                                                             ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m16[0m - [91merror[0m[90m TS2345: [0mArgument of type 'boolean' is not assignable to parameter of type 'ServiceIdentifier | LazyServiceIdentifier<unknown>'.
+
+[7m37[0m         inject(!isPasswordMatch) throw createHttpError(HttpStatus.UNAUTHORIZED, HttpResponse.)
+[7m  [0m [91m               ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m34[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m37[0m         inject(!isPasswordMatch) throw createHttpError(HttpStatus.UNAUTHORIZED, HttpResponse.)
+[7m  [0m [91m                                 ~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m94[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         inject(!isPasswordMatch) throw createHttpError(HttpStatus.UNAUTHORIZED, HttpResponse.)
+[7m  [0m [91m                                                                                             ~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m16[0m - [91merror[0m[90m TS2345: [0mArgument of type 'boolean' is not assignable to parameter of type 'ServiceIdentifier | LazyServiceIdentifier<unknown>'.
+
+[7m37[0m         inject(!isPasswordMatch) throw createHttpError(HttpStatus.UNAUTHORIZED, HttpResponse.)
+[7m  [0m [91m               ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m34[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m37[0m         inject(!isPasswordMatch) throw createHttpError(HttpStatus.UNAUTHORIZED, HttpResponse.)
+[7m  [0m [91m                                 ~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m37[0m:[93m94[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         inject(!isPasswordMatch) throw createHttpError(HttpStatus.UNAUTHORIZED, HttpResponse.)
+[7m  [0m [91m                                                                                             ~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 10:55:14] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(user: IUser): Promise<IUser> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(user: IUser): Promise<IUser> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(user: IUser): Promise<IUser> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 10:56:09] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 10:57:08] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 10:57:53] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 11:01:15] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 11:01:43] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 11:02:17] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m30[0m:[93m55[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m30[0m     async loginUser(email: string, password: string): Promise<IUser> {
+[7m  [0m [91m                                                      ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 11:04:09] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m45[0m:[93m18[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'accessToken' does not exist in type 'IUser'.
+
+[7m45[0m         return { accessToken, refreshToken, role: user.role };
+[7m  [0m [91m                 ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m45[0m:[93m18[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'accessToken' does not exist in type 'IUser'.
+
+[7m45[0m         return { accessToken, refreshToken, role: user.role };
+[7m  [0m [91m                 ~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m45[0m:[93m18[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'accessToken' does not exist in type 'IUser'.
+
+[7m45[0m         return { accessToken, refreshToken, role: user.role };
+[7m  [0m [91m                 ~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 11:05:24] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m9[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'AuthController' incorrectly implements interface 'IAuthController'.
+  Property 'loginUser' is missing in type 'AuthController' but required in type 'IAuthController'.
+
+[7m9[0m export class AuthController implements IAuthController {
+[7m [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IAuth.controller.ts[0m:[93m5[0m:[93m5[0m
+    [7m5[0m     loginUser(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'loginUser' is declared here.
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m24[0m:[93m5[0m - [91merror[0m[90m TS7008: [0mMember 'async' implicitly has an 'any' type.
+
+[7m24[0m     async
+[7m  [0m [91m    ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m9[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'AuthController' incorrectly implements interface 'IAuthController'.
+  Property 'loginUser' is missing in type 'AuthController' but required in type 'IAuthController'.
+
+[7m9[0m export class AuthController implements IAuthController {
+[7m [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IAuth.controller.ts[0m:[93m5[0m:[93m5[0m
+    [7m5[0m     loginUser(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'loginUser' is declared here.
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m24[0m:[93m5[0m - [91merror[0m[90m TS7008: [0mMember 'async' implicitly has an 'any' type.
+
+[7m24[0m     async
+[7m  [0m [91m    ~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m9[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'AuthController' incorrectly implements interface 'IAuthController'.
+  Property 'loginUser' is missing in type 'AuthController' but required in type 'IAuthController'.
+
+[7m9[0m export class AuthController implements IAuthController {
+[7m [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IAuth.controller.ts[0m:[93m5[0m:[93m5[0m
+    [7m5[0m     loginUser(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'loginUser' is declared here.
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m24[0m:[93m5[0m - [91merror[0m[90m TS7008: [0mMember 'async' implicitly has an 'any' type.
+
+[7m24[0m     async
+[7m  [0m [91m    ~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 11:07:07] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m27[0m:[93m50[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.
+
+[7m27[0m             const data = await this._authService.loginUser()
+[7m  [0m [91m                                                 ~~~~~~~~~[0m
+
+  [96msrc/services/implementations/auth.service.ts[0m:[93m31[0m:[93m21[0m
+    [7m31[0m     async loginUser(email: string, password: string): Promise<{ accessToken: string, refreshToken: string, role: string }> {
+    [7m  [0m [96m                    ~~~~~~~~~~~~~[0m
+    An argument for 'email' was not provided.
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m27[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m             const data = await this._authService.loginUser()
+[7m  [0m [91m            ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m27[0m:[93m50[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.
+
+[7m27[0m             const data = await this._authService.loginUser()
+[7m  [0m [91m                                                 ~~~~~~~~~[0m
+
+  [96msrc/services/implementations/auth.service.ts[0m:[93m31[0m:[93m21[0m
+    [7m31[0m     async loginUser(email: string, password: string): Promise<{ accessToken: string, refreshToken: string, role: string }> {
+    [7m  [0m [96m                    ~~~~~~~~~~~~~[0m
+    An argument for 'email' was not provided.
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m27[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m             const data = await this._authService.loginUser()
+[7m  [0m [91m            ~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m27[0m:[93m50[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.
+
+[7m27[0m             const data = await this._authService.loginUser()
+[7m  [0m [91m                                                 ~~~~~~~~~[0m
+
+  [96msrc/services/implementations/auth.service.ts[0m:[93m31[0m:[93m21[0m
+    [7m31[0m     async loginUser(email: string, password: string): Promise<{ accessToken: string, refreshToken: string, role: string }> {
+    [7m  [0m [96m                    ~~~~~~~~~~~~~[0m
+    An argument for 'email' was not provided.
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m27[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m             const data = await this._authService.loginUser()
+[7m  [0m [91m            ~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 11:07:47] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m30[0m:[93m17[0m - [91merror[0m[90m TS2554: [0mExpected 2-3 arguments, but got 1.
+
+[7m30[0m             res.cookie(``)
+[7m  [0m [91m                ~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m947[0m:[93m26[0m
+    [7m947[0m     cookie(name: string, val: any): this;
+    [7m   [0m [96m                         ~~~~~~~~[0m
+    An argument for 'val' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m30[0m:[93m17[0m - [91merror[0m[90m TS2554: [0mExpected 2-3 arguments, but got 1.
+
+[7m30[0m             res.cookie(``)
+[7m  [0m [91m                ~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m947[0m:[93m26[0m
+    [7m947[0m     cookie(name: string, val: any): this;
+    [7m   [0m [96m                         ~~~~~~~~[0m
+    An argument for 'val' was not provided.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m30[0m:[93m17[0m - [91merror[0m[90m TS2554: [0mExpected 2-3 arguments, but got 1.
+
+[7m30[0m             res.cookie(``)
+[7m  [0m [91m                ~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m947[0m:[93m26[0m
+    [7m947[0m     cookie(name: string, val: any): this;
+    [7m   [0m [96m                         ~~~~~~~~[0m
+    An argument for 'val' was not provided.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 11:10:30] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m50[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'refreshToken' does not exist on type 'AuthService'.
+
+[7m50[0m             const accessToken = await this._authService.refreshToken(refreshToken);
+[7m  [0m [91m                                                        ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m50[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'refreshToken' does not exist on type 'AuthService'.
+
+[7m50[0m             const accessToken = await this._authService.refreshToken(refreshToken);
+[7m  [0m [91m                                                        ~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m50[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'refreshToken' does not exist on type 'AuthService'.
+
+[7m50[0m             const accessToken = await this._authService.refreshToken(refreshToken);
+[7m  [0m [91m                                                        ~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 11:11:02] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m48[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'refreshToken' does not exist on type 'AuthService'.
+
+[7m48[0m             const accessToken = await this._authService.refreshToken(refreshToken);
+[7m  [0m [91m                                                        ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m48[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'refreshToken' does not exist on type 'AuthService'.
+
+[7m48[0m             const accessToken = await this._authService.refreshToken(refreshToken);
+[7m  [0m [91m                                                        ~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/auth.controller.ts[0m:[93m48[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'refreshToken' does not exist on type 'AuthService'.
+
+[7m48[0m             const accessToken = await this._authService.refreshToken(refreshToken);
+[7m  [0m [91m                                                        ~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 11:12:50] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m51[0m:[93m78[0m - [91merror[0m[90m TS2339: [0mProperty 'NO_REFRESH_TOKEN' does not exist on type '{ SERVER_ERROR: string; EMAIL_REQUIRED: string; MISSING_FIELDS: string; USER_ID_NOT_FOUND: string; USER_EXISTS: string; USER_INSERT_ERROR: string; USER_ADDED: string; USER_NOT_FOUND: string; PASSWORD_INCORRECT: string; }'.
+
+[7m51[0m         if (!token) throw createHttpError(HttpStatus.NOT_FOUND, HttpResponse.NO_REFRESH_TOKEN);
+[7m  [0m [91m                                                                             ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m55[0m:[93m81[0m - [91merror[0m[90m TS2339: [0mProperty 'NO_DECODED_TOKEN' does not exist on type '{ SERVER_ERROR: string; EMAIL_REQUIRED: string; MISSING_FIELDS: string; USER_ID_NOT_FOUND: string; USER_EXISTS: string; USER_INSERT_ERROR: string; USER_ADDED: string; USER_NOT_FOUND: string; PASSWORD_INCORRECT: string; }'.
+
+[7m55[0m         if (!decoded) throw createHttpError(HttpStatus.NO_CONTENT, HttpResponse.NO_DECODED_TOKEN);
+[7m  [0m [91m                                                                                ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m51[0m:[93m78[0m - [91merror[0m[90m TS2339: [0mProperty 'NO_REFRESH_TOKEN' does not exist on type '{ SERVER_ERROR: string; EMAIL_REQUIRED: string; MISSING_FIELDS: string; USER_ID_NOT_FOUND: string; USER_EXISTS: string; USER_INSERT_ERROR: string; USER_ADDED: string; USER_NOT_FOUND: string; PASSWORD_INCORRECT: string; }'.
+
+[7m51[0m         if (!token) throw createHttpError(HttpStatus.NOT_FOUND, HttpResponse.NO_REFRESH_TOKEN);
+[7m  [0m [91m                                                                             ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m55[0m:[93m81[0m - [91merror[0m[90m TS2339: [0mProperty 'NO_DECODED_TOKEN' does not exist on type '{ SERVER_ERROR: string; EMAIL_REQUIRED: string; MISSING_FIELDS: string; USER_ID_NOT_FOUND: string; USER_EXISTS: string; USER_INSERT_ERROR: string; USER_ADDED: string; USER_NOT_FOUND: string; PASSWORD_INCORRECT: string; }'.
+
+[7m55[0m         if (!decoded) throw createHttpError(HttpStatus.NO_CONTENT, HttpResponse.NO_DECODED_TOKEN);
+[7m  [0m [91m                                                                                ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/auth.service.ts[0m:[93m51[0m:[93m78[0m - [91merror[0m[90m TS2339: [0mProperty 'NO_REFRESH_TOKEN' does not exist on type '{ SERVER_ERROR: string; EMAIL_REQUIRED: string; MISSING_FIELDS: string; USER_ID_NOT_FOUND: string; USER_EXISTS: string; USER_INSERT_ERROR: string; USER_ADDED: string; USER_NOT_FOUND: string; PASSWORD_INCORRECT: string; }'.
+
+[7m51[0m         if (!token) throw createHttpError(HttpStatus.NOT_FOUND, HttpResponse.NO_REFRESH_TOKEN);
+[7m  [0m [91m                                                                             ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/implementations/auth.service.ts[0m:[93m55[0m:[93m81[0m - [91merror[0m[90m TS2339: [0mProperty 'NO_DECODED_TOKEN' does not exist on type '{ SERVER_ERROR: string; EMAIL_REQUIRED: string; MISSING_FIELDS: string; USER_ID_NOT_FOUND: string; USER_EXISTS: string; USER_INSERT_ERROR: string; USER_ADDED: string; USER_NOT_FOUND: string; PASSWORD_INCORRECT: string; }'.
+
+[7m55[0m         if (!decoded) throw createHttpError(HttpStatus.NO_CONTENT, HttpResponse.NO_DECODED_TOKEN);
+[7m  [0m [91m                                                                                ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 16:03:54] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m14[0m:[93m14[0m
+    [7m14[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m14[0m:[93m14[0m
+    [7m14[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m14[0m:[93m14[0m
+    [7m14[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 16:04:15] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m21[0m:[93m14[0m
+    [7m21[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m21[0m:[93m14[0m
+    [7m21[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m21[0m:[93m14[0m
+    [7m21[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 16:04:46] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m14[0m:[93m14[0m
+    [7m14[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m14[0m:[93m14[0m
+    [7m14[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m14[0m:[93m14[0m
+    [7m14[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 16:05:46] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 16:06:08] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 16:06:55] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 16:07:14] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 16:08:14] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 16:08:41] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 16:09:06] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 16:09:26] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-01 16:10:02] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/admin.route.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../middlewares/auth.middleware"' has no exported member named 'authenticateAdmin'. Did you mean 'authenticate'?
+
+[7m2[0m import { authenticateAdmin } from "../middlewares/auth.middleware";
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export const authenticate =
+    [7m  [0m [96m             ~~~~~~~~~~~~[0m
+    'authenticate' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-02 12:02:21] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/configs/inversify.config.ts[0m:[93m23[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m23[0m const container = new Container({ defaultScope: "Singleton" });
+[7m  [0m [91m~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/configs/inversify.config.ts[0m:[93m23[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m23[0m const container = new Container({ defaultScope: "Singleton" });
+[7m  [0m [91m~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/configs/inversify.config.ts[0m:[93m23[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m23[0m const container = new Container({ defaultScope: "Singleton" });
+[7m  [0m [91m~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-02 12:04:13] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/configs/inversify.config.ts[0m:[93m32[0m:[93m11[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m32[0m container.bind<IAuthController>()
+[7m  [0m [91m          ~~~~[0m
+
+  [96mnode_modules/@inversifyjs/container/lib/cjs/container/services/Container.d.ts[0m:[93m11[0m:[93m13[0m
+    [7m11[0m     bind<T>(serviceIdentifier: ServiceIdentifier<T>): BindToFluentSyntax<T>;
+    [7m  [0m [96m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'serviceIdentifier' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/configs/inversify.config.ts[0m:[93m32[0m:[93m11[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m32[0m container.bind<IAuthController>()
+[7m  [0m [91m          ~~~~[0m
+
+  [96mnode_modules/@inversifyjs/container/lib/cjs/container/services/Container.d.ts[0m:[93m11[0m:[93m13[0m
+    [7m11[0m     bind<T>(serviceIdentifier: ServiceIdentifier<T>): BindToFluentSyntax<T>;
+    [7m  [0m [96m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'serviceIdentifier' was not provided.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/configs/inversify.config.ts[0m:[93m32[0m:[93m11[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m32[0m container.bind<IAuthController>()
+[7m  [0m [91m          ~~~~[0m
+
+  [96mnode_modules/@inversifyjs/container/lib/cjs/container/services/Container.d.ts[0m:[93m11[0m:[93m13[0m
+    [7m11[0m     bind<T>(serviceIdentifier: ServiceIdentifier<T>): BindToFluentSyntax<T>;
+    [7m  [0m [96m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'serviceIdentifier' was not provided.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-02 12:05:23] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m TS2552: [0mCannot find name 'userRouter'. Did you mean 'usRouter'?
+
+[7m5[0m export default userRouter;
+[7m [0m [91m               ~~~~~~~~~~[0m
+
+  [96msrc/routes/booking.route.ts[0m:[93m3[0m:[93m7[0m
+    [7m3[0m const usRouter = express.Router();
+    [7m [0m [96m      ~~~~~~~~[0m
+    'usRouter' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m TS2552: [0mCannot find name 'userRouter'. Did you mean 'usRouter'?
+
+[7m5[0m export default userRouter;
+[7m [0m [91m               ~~~~~~~~~~[0m
+
+  [96msrc/routes/booking.route.ts[0m:[93m3[0m:[93m7[0m
+    [7m3[0m const usRouter = express.Router();
+    [7m [0m [96m      ~~~~~~~~[0m
+    'usRouter' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m TS2552: [0mCannot find name 'userRouter'. Did you mean 'usRouter'?
+
+[7m5[0m export default userRouter;
+[7m [0m [91m               ~~~~~~~~~~[0m
+
+  [96msrc/routes/booking.route.ts[0m:[93m3[0m:[93m7[0m
+    [7m3[0m const usRouter = express.Router();
+    [7m [0m [96m      ~~~~~~~~[0m
+    'usRouter' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-02 12:05:50] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m4[0m:[93m7[0m - [91merror[0m[90m TS1155: [0m'const' declarations must be initialized.
+
+[7m4[0m const bookingController
+[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m
+[96msrc/routes/booking.route.ts[0m:[93m4[0m:[93m7[0m - [91merror[0m[90m TS7005: [0mVariable 'bookingController' implicitly has an 'any' type.
+
+[7m4[0m const bookingController
+[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m4[0m:[93m7[0m - [91merror[0m[90m TS1155: [0m'const' declarations must be initialized.
+
+[7m4[0m const bookingController
+[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m
+[96msrc/routes/booking.route.ts[0m:[93m4[0m:[93m7[0m - [91merror[0m[90m TS7005: [0mVariable 'bookingController' implicitly has an 'any' type.
+
+[7m4[0m const bookingController
+[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m4[0m:[93m7[0m - [91merror[0m[90m TS1155: [0m'const' declarations must be initialized.
+
+[7m4[0m const bookingController
+[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m
+[96msrc/routes/booking.route.ts[0m:[93m4[0m:[93m7[0m - [91merror[0m[90m TS7005: [0mVariable 'bookingController' implicitly has an 'any' type.
+
+[7m4[0m const bookingController
+[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-02 12:05:58] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m5[0m:[93m37[0m - [91merror[0m[90m TS2554: [0mExpected 1-2 arguments, but got 0.
+
+[7m5[0m const bookingController = container.get()
+[7m [0m [91m                                    ~~~[0m
+
+  [96mnode_modules/@inversifyjs/container/lib/cjs/container/services/Container.d.ts[0m:[93m13[0m:[93m12[0m
+    [7m13[0m     get<T>(serviceIdentifier: ServiceIdentifier<T>, options?: GetOptions): T;
+    [7m  [0m [96m           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'serviceIdentifier' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m5[0m:[93m37[0m - [91merror[0m[90m TS2554: [0mExpected 1-2 arguments, but got 0.
+
+[7m5[0m const bookingController = container.get()
+[7m [0m [91m                                    ~~~[0m
+
+  [96mnode_modules/@inversifyjs/container/lib/cjs/container/services/Container.d.ts[0m:[93m13[0m:[93m12[0m
+    [7m13[0m     get<T>(serviceIdentifier: ServiceIdentifier<T>, options?: GetOptions): T;
+    [7m  [0m [96m           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'serviceIdentifier' was not provided.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m5[0m:[93m37[0m - [91merror[0m[90m TS2554: [0mExpected 1-2 arguments, but got 0.
+
+[7m5[0m const bookingController = container.get()
+[7m [0m [91m                                    ~~~[0m
+
+  [96mnode_modules/@inversifyjs/container/lib/cjs/container/services/Container.d.ts[0m:[93m13[0m:[93m12[0m
+    [7m13[0m     get<T>(serviceIdentifier: ServiceIdentifier<T>, options?: GetOptions): T;
+    [7m  [0m [96m           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'serviceIdentifier' was not provided.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-02 12:06:27] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m8[0m:[93m39[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m8[0m bookingRouter.post("/flight-enquiry").
+[7m [0m [91m                                      [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m8[0m:[93m39[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m8[0m bookingRouter.post("/flight-enquiry").
+[7m [0m [91m                                      [0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m8[0m:[93m39[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m8[0m bookingRouter.post("/flight-enquiry").
+[7m [0m [91m                                      [0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-02 13:48:22] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m             const newFlightEnquiry = await this._bookingService.postFlightEnquiry(flightEnquiry);
+[7m  [0m [91m            ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m             const newFlightEnquiry = await this._bookingService.postFlightEnquiry(flightEnquiry);
+[7m  [0m [91m            ~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m             const newFlightEnquiry = await this._bookingService.postFlightEnquiry(flightEnquiry);
+[7m  [0m [91m            ~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-02 14:04:32] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m             const newFlightEnquiry = await this._bookingService.postFlightEnquiry(flightEnquiry);
+[7m  [0m [91m            ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m             const newFlightEnquiry = await this._bookingService.postFlightEnquiry(flightEnquiry);
+[7m  [0m [91m            ~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m             const newFlightEnquiry = await this._bookingService.postFlightEnquiry(flightEnquiry);
+[7m  [0m [91m            ~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
