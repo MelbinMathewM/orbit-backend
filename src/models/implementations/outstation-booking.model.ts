@@ -1,7 +1,7 @@
 import { Schema, model } from "mongoose";
-import { IFlightEnquiry } from "../interfaces/IFlight-enquiry.model";
+import { IOutstationBooking } from "../interfaces/IOutstation-booking.model";
 
-const flightEnquirySchema = new Schema<IFlightEnquiry>({
+const outstationBookingSchema = new Schema<IOutstationBooking>({
     fullName: {
         type: String,
         required: true
@@ -18,28 +18,12 @@ const flightEnquirySchema = new Schema<IFlightEnquiry>({
         type: String,
         required: true
     },
-    flightName: {
+    pickUp: {
         type: String,
         required: true
     },
-    tripSelection: {
+    dropOff: {
         type: String,
-        required: true
-    },
-    from: {
-        type: String,
-        required: true
-    },
-    to: {
-        type: String,
-        required: true
-    },
-    startDate: {
-        type: Date,
-        required: true
-    },
-    endDate: {
-        type: Date,
         required: true
     },
     adultNumber: {
@@ -54,11 +38,35 @@ const flightEnquirySchema = new Schema<IFlightEnquiry>({
         type: String,
         default: "0"
     },
+    numberOfDays: {
+        type: String,
+        required: true
+    },
+    vehicleType: {
+        type: String,
+        required: true
+    },
+    language: {
+        type: String,
+        required: true
+    },
+    locations: {
+        type: [String],
+        required: true
+    },
+    activities: {
+        type: String,
+        required: true
+    },
+    budget: {
+        type: Number,
+        required: true
+    },
     additionalRequirements: {
         type: String,
     }
 });
 
-const FlightEnquiry = model<IFlightEnquiry>("flight-enquiry", flightEnquirySchema);
+const OutstationBooking = model<IOutstationBooking>("outstation-booking", outstationBookingSchema);
 
-export default FlightEnquiry;
+export default OutstationBooking;

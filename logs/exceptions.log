@@ -2007,3 +2007,884 @@ Stack Trace: TSError: ⨯ Unable to compile TypeScript:
     at Module.load (node:internal/modules/cjs/loader:1275:32)
     at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
     at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-02 19:06:33] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m10[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'postHotelBooking' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m10[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m5[0m:[93m5[0m
+    [7m5[0m     postHotelBooking(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'postHotelBooking' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m10[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'postHotelBooking' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m10[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m5[0m:[93m5[0m
+    [7m5[0m     postHotelBooking(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'postHotelBooking' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m10[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'postHotelBooking' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m10[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m5[0m:[93m5[0m
+    [7m5[0m     postHotelBooking(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'postHotelBooking' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-02 19:27:12] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m37[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'IHotelBooking' is not assignable to parameter of type 'IFlightEnquiry'.
+  Type 'IHotelBooking' is missing the following properties from type 'IFlightEnquiry': flightName, tripSelection, from, to, and 2 more.
+
+[7m37[0m             const error = flightEnquiryValidation(hotelBooking);
+[7m  [0m [91m                                                  ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m37[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'IHotelBooking' is not assignable to parameter of type 'IFlightEnquiry'.
+  Type 'IHotelBooking' is missing the following properties from type 'IFlightEnquiry': flightName, tripSelection, from, to, and 2 more.
+
+[7m37[0m             const error = flightEnquiryValidation(hotelBooking);
+[7m  [0m [91m                                                  ~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m37[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'IHotelBooking' is not assignable to parameter of type 'IFlightEnquiry'.
+  Type 'IHotelBooking' is missing the following properties from type 'IFlightEnquiry': flightName, tripSelection, from, to, and 2 more.
+
+[7m37[0m             const error = flightEnquiryValidation(hotelBooking);
+[7m  [0m [91m                                                  ~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-02 19:28:16] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m37[0m:[93m50[0m - [91merror[0m[90m TS2345: [0mArgument of type 'IHotelBooking' is not assignable to parameter of type 'IFlightEnquiry'.
+  Type 'IHotelBooking' is missing the following properties from type 'IFlightEnquiry': flightName, tripSelection, from, to, and 2 more.
+
+[7m37[0m             const error = hotelBookingValidation(hotelBooking);
+[7m  [0m [91m                                                 ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m37[0m:[93m50[0m - [91merror[0m[90m TS2345: [0mArgument of type 'IHotelBooking' is not assignable to parameter of type 'IFlightEnquiry'.
+  Type 'IHotelBooking' is missing the following properties from type 'IFlightEnquiry': flightName, tripSelection, from, to, and 2 more.
+
+[7m37[0m             const error = hotelBookingValidation(hotelBooking);
+[7m  [0m [91m                                                 ~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m37[0m:[93m50[0m - [91merror[0m[90m TS2345: [0mArgument of type 'IHotelBooking' is not assignable to parameter of type 'IFlightEnquiry'.
+  Type 'IHotelBooking' is missing the following properties from type 'IFlightEnquiry': flightName, tripSelection, from, to, and 2 more.
+
+[7m37[0m             const error = hotelBookingValidation(hotelBooking);
+[7m  [0m [91m                                                 ~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-02 19:28:54] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m37[0m:[93m50[0m - [91merror[0m[90m TS2345: [0mArgument of type 'IHotelBooking' is not assignable to parameter of type 'IFlightEnquiry'.
+  Type 'IHotelBooking' is missing the following properties from type 'IFlightEnquiry': flightName, tripSelection, from, to, and 2 more.
+
+[7m37[0m             const error = hotelBookingValidation(hotelBooking);
+[7m  [0m [91m                                                 ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m37[0m:[93m50[0m - [91merror[0m[90m TS2345: [0mArgument of type 'IHotelBooking' is not assignable to parameter of type 'IFlightEnquiry'.
+  Type 'IHotelBooking' is missing the following properties from type 'IFlightEnquiry': flightName, tripSelection, from, to, and 2 more.
+
+[7m37[0m             const error = hotelBookingValidation(hotelBooking);
+[7m  [0m [91m                                                 ~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m37[0m:[93m50[0m - [91merror[0m[90m TS2345: [0mArgument of type 'IHotelBooking' is not assignable to parameter of type 'IFlightEnquiry'.
+  Type 'IHotelBooking' is missing the following properties from type 'IFlightEnquiry': flightName, tripSelection, from, to, and 2 more.
+
+[7m37[0m             const error = hotelBookingValidation(hotelBooking);
+[7m  [0m [91m                                                 ~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-03 10:46:46] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m11[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'postOutstationBooking' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m11[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m6[0m:[93m5[0m
+    [7m6[0m     postOutstationBooking(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'postOutstationBooking' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m11[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'postOutstationBooking' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m11[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m6[0m:[93m5[0m
+    [7m6[0m     postOutstationBooking(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'postOutstationBooking' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m11[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'postOutstationBooking' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m11[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m6[0m:[93m5[0m
+    [7m6[0m     postOutstationBooking(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'postOutstationBooking' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-03 14:13:59] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m108[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m108[0m     if (!flightEnquiry.flightName) errors.push("Flight name is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m109[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m109[0m     if (!flightEnquiry.tripSelection) errors.push("Trip selection is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m110[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m110[0m     if (!flightEnquiry.from) errors.push("From location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m111[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m111[0m     if (!flightEnquiry.to) errors.push("To location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m112[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m112[0m     if (!flightEnquiry.startDate) errors.push("Departure date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m113[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m113[0m     if (!flightEnquiry.endDate) errors.push("Return date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m120[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m120[0m     const childNum = Number(flightEnquiry.childNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m125[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m125[0m     const infantNum = Number(flightEnquiry.infantNumber);
+[7m   [0m [91m                             ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m130[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m130[0m     if (flightEnquiry.additionalRequirements && flightEnquiry.additionalRequirements.length > 500) {
+[7m   [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m130[0m:[93m49[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m130[0m     if (flightEnquiry.additionalRequirements && flightEnquiry.additionalRequirements.length > 500) {
+[7m   [0m [91m                                                ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m108[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m108[0m     if (!flightEnquiry.flightName) errors.push("Flight name is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m109[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m109[0m     if (!flightEnquiry.tripSelection) errors.push("Trip selection is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m110[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m110[0m     if (!flightEnquiry.from) errors.push("From location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m111[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m111[0m     if (!flightEnquiry.to) errors.push("To location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m112[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m112[0m     if (!flightEnquiry.startDate) errors.push("Departure date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m113[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m113[0m     if (!flightEnquiry.endDate) errors.push("Return date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m120[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m120[0m     const childNum = Number(flightEnquiry.childNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m125[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m125[0m     const infantNum = Number(flightEnquiry.infantNumber);
+[7m   [0m [91m                             ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m130[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m130[0m     if (flightEnquiry.additionalRequirements && flightEnquiry.additionalRequirements.length > 500) {
+[7m   [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m130[0m:[93m49[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m130[0m     if (flightEnquiry.additionalRequirements && flightEnquiry.additionalRequirements.length > 500) {
+[7m   [0m [91m                                                ~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m108[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m108[0m     if (!flightEnquiry.flightName) errors.push("Flight name is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m109[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m109[0m     if (!flightEnquiry.tripSelection) errors.push("Trip selection is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m110[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m110[0m     if (!flightEnquiry.from) errors.push("From location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m111[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m111[0m     if (!flightEnquiry.to) errors.push("To location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m112[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m112[0m     if (!flightEnquiry.startDate) errors.push("Departure date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m113[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m113[0m     if (!flightEnquiry.endDate) errors.push("Return date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m120[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m120[0m     const childNum = Number(flightEnquiry.childNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m125[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m125[0m     const infantNum = Number(flightEnquiry.infantNumber);
+[7m   [0m [91m                             ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m130[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m130[0m     if (flightEnquiry.additionalRequirements && flightEnquiry.additionalRequirements.length > 500) {
+[7m   [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m130[0m:[93m49[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m130[0m     if (flightEnquiry.additionalRequirements && flightEnquiry.additionalRequirements.length > 500) {
+[7m   [0m [91m                                                ~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-03 14:14:58] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m108[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m108[0m     if (!flightEnquiry.flightName) errors.push("Flight name is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m109[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m109[0m     if (!flightEnquiry.tripSelection) errors.push("Trip selection is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m110[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m110[0m     if (!flightEnquiry.from) errors.push("From location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m111[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m111[0m     if (!flightEnquiry.to) errors.push("To location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m112[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m112[0m     if (!flightEnquiry.startDate) errors.push("Departure date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m113[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m113[0m     if (!flightEnquiry.endDate) errors.push("Return date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m108[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m108[0m     if (!flightEnquiry.flightName) errors.push("Flight name is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m109[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m109[0m     if (!flightEnquiry.tripSelection) errors.push("Trip selection is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m110[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m110[0m     if (!flightEnquiry.from) errors.push("From location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m111[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m111[0m     if (!flightEnquiry.to) errors.push("To location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m112[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m112[0m     if (!flightEnquiry.startDate) errors.push("Departure date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m113[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m113[0m     if (!flightEnquiry.endDate) errors.push("Return date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m108[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m108[0m     if (!flightEnquiry.flightName) errors.push("Flight name is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m109[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m109[0m     if (!flightEnquiry.tripSelection) errors.push("Trip selection is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m110[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m110[0m     if (!flightEnquiry.from) errors.push("From location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m111[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m111[0m     if (!flightEnquiry.to) errors.push("To location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m112[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m112[0m     if (!flightEnquiry.startDate) errors.push("Departure date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m113[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m113[0m     if (!flightEnquiry.endDate) errors.push("Return date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-03 14:16:01] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m110[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m110[0m     if (!flightEnquiry.from) errors.push("From location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m111[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m111[0m     if (!flightEnquiry.to) errors.push("To location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m112[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m112[0m     if (!flightEnquiry.startDate) errors.push("Departure date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m113[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m113[0m     if (!flightEnquiry.endDate) errors.push("Return date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m110[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m110[0m     if (!flightEnquiry.from) errors.push("From location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m111[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m111[0m     if (!flightEnquiry.to) errors.push("To location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m112[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m112[0m     if (!flightEnquiry.startDate) errors.push("Departure date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m113[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m113[0m     if (!flightEnquiry.endDate) errors.push("Return date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m110[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m110[0m     if (!flightEnquiry.from) errors.push("From location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m111[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m111[0m     if (!flightEnquiry.to) errors.push("To location is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m112[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m112[0m     if (!flightEnquiry.startDate) errors.push("Departure date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m113[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'flightEnquiry'.
+
+[7m113[0m     if (!flightEnquiry.endDate) errors.push("Return date is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-03 16:12:26] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m164[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m164[0m     if (!outstationBooking.numberOfDays) errors.push("Number of days is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m165[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m165[0m     if (!outstationBooking.vehicleType) errors.push("Vehicle type is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m166[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m166[0m     if (!outstationBooking.language) errors.push("Language is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m167[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m167[0m     if (!outstationBooking.activities) errors.push("Activities is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m169[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m169[0m     if(!outstationBooking.locations || outstationBooking.locations.length < 1){
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m169[0m:[93m40[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m169[0m     if(!outstationBooking.locations || outstationBooking.locations.length < 1){
+[7m   [0m [91m                                       ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m173[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m173[0m     const adultNum = Number(outstationBooking.adultNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m178[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m178[0m     const childNum = Number(outstationBooking.childNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m183[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m183[0m     const infantNum = Number(outstationBooking.infantNumber);
+[7m   [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m188[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m188[0m     if(!outstationBooking.budget || outstationBooking.budget < 0) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m188[0m:[93m37[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m188[0m     if(!outstationBooking.budget || outstationBooking.budget < 0) {
+[7m   [0m [91m                                    ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m192[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m192[0m     if (outstationBooking.additionalRequirements && outstationBooking.additionalRequirements.length > 500) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m192[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m192[0m     if (outstationBooking.additionalRequirements && outstationBooking.additionalRequirements.length > 500) {
+[7m   [0m [91m                                                    ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m164[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m164[0m     if (!outstationBooking.numberOfDays) errors.push("Number of days is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m165[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m165[0m     if (!outstationBooking.vehicleType) errors.push("Vehicle type is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m166[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m166[0m     if (!outstationBooking.language) errors.push("Language is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m167[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m167[0m     if (!outstationBooking.activities) errors.push("Activities is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m169[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m169[0m     if(!outstationBooking.locations || outstationBooking.locations.length < 1){
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m169[0m:[93m40[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m169[0m     if(!outstationBooking.locations || outstationBooking.locations.length < 1){
+[7m   [0m [91m                                       ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m173[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m173[0m     const adultNum = Number(outstationBooking.adultNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m178[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m178[0m     const childNum = Number(outstationBooking.childNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m183[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m183[0m     const infantNum = Number(outstationBooking.infantNumber);
+[7m   [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m188[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m188[0m     if(!outstationBooking.budget || outstationBooking.budget < 0) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m188[0m:[93m37[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m188[0m     if(!outstationBooking.budget || outstationBooking.budget < 0) {
+[7m   [0m [91m                                    ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m192[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m192[0m     if (outstationBooking.additionalRequirements && outstationBooking.additionalRequirements.length > 500) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m192[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m192[0m     if (outstationBooking.additionalRequirements && outstationBooking.additionalRequirements.length > 500) {
+[7m   [0m [91m                                                    ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m164[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m164[0m     if (!outstationBooking.numberOfDays) errors.push("Number of days is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m165[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m165[0m     if (!outstationBooking.vehicleType) errors.push("Vehicle type is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m166[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m166[0m     if (!outstationBooking.language) errors.push("Language is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m167[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m167[0m     if (!outstationBooking.activities) errors.push("Activities is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m169[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m169[0m     if(!outstationBooking.locations || outstationBooking.locations.length < 1){
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m169[0m:[93m40[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m169[0m     if(!outstationBooking.locations || outstationBooking.locations.length < 1){
+[7m   [0m [91m                                       ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m173[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m173[0m     const adultNum = Number(outstationBooking.adultNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m178[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m178[0m     const childNum = Number(outstationBooking.childNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m183[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m183[0m     const infantNum = Number(outstationBooking.infantNumber);
+[7m   [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m188[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m188[0m     if(!outstationBooking.budget || outstationBooking.budget < 0) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m188[0m:[93m37[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m188[0m     if(!outstationBooking.budget || outstationBooking.budget < 0) {
+[7m   [0m [91m                                    ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m192[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m192[0m     if (outstationBooking.additionalRequirements && outstationBooking.additionalRequirements.length > 500) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m192[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m192[0m     if (outstationBooking.additionalRequirements && outstationBooking.additionalRequirements.length > 500) {
+[7m   [0m [91m                                                    ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-03 16:13:13] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m164[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'numberOfDays' does not exist on type 'IDayTourEnquiry'.
+
+[7m164[0m     if (!dayTourEnquiry.numberOfDays) errors.push("Number of days is required");
+[7m   [0m [91m                        ~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m166[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m166[0m     if (!outstationBooking.language) errors.push("Language is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m167[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m167[0m     if (!outstationBooking.activities) errors.push("Activities is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m170[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m170[0m     const adultNum = Number(outstationBooking.adultNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m175[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m175[0m     const childNum = Number(outstationBooking.childNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m180[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m180[0m     const infantNum = Number(outstationBooking.infantNumber);
+[7m   [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m185[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m185[0m     if(!outstationBooking.budget || outstationBooking.budget < 0) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m185[0m:[93m37[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m185[0m     if(!outstationBooking.budget || outstationBooking.budget < 0) {
+[7m   [0m [91m                                    ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m189[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m189[0m     if (outstationBooking.additionalRequirements && outstationBooking.additionalRequirements.length > 500) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m189[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m189[0m     if (outstationBooking.additionalRequirements && outstationBooking.additionalRequirements.length > 500) {
+[7m   [0m [91m                                                    ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m164[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'numberOfDays' does not exist on type 'IDayTourEnquiry'.
+
+[7m164[0m     if (!dayTourEnquiry.numberOfDays) errors.push("Number of days is required");
+[7m   [0m [91m                        ~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m166[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m166[0m     if (!outstationBooking.language) errors.push("Language is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m167[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m167[0m     if (!outstationBooking.activities) errors.push("Activities is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m170[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m170[0m     const adultNum = Number(outstationBooking.adultNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m175[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m175[0m     const childNum = Number(outstationBooking.childNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m180[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m180[0m     const infantNum = Number(outstationBooking.infantNumber);
+[7m   [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m185[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m185[0m     if(!outstationBooking.budget || outstationBooking.budget < 0) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m185[0m:[93m37[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m185[0m     if(!outstationBooking.budget || outstationBooking.budget < 0) {
+[7m   [0m [91m                                    ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m189[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m189[0m     if (outstationBooking.additionalRequirements && outstationBooking.additionalRequirements.length > 500) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m189[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m189[0m     if (outstationBooking.additionalRequirements && outstationBooking.additionalRequirements.length > 500) {
+[7m   [0m [91m                                                    ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/validation.util.ts[0m:[93m164[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'numberOfDays' does not exist on type 'IDayTourEnquiry'.
+
+[7m164[0m     if (!dayTourEnquiry.numberOfDays) errors.push("Number of days is required");
+[7m   [0m [91m                        ~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m166[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m166[0m     if (!outstationBooking.language) errors.push("Language is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m167[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m167[0m     if (!outstationBooking.activities) errors.push("Activities is required");
+[7m   [0m [91m         ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m170[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m170[0m     const adultNum = Number(outstationBooking.adultNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m175[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m175[0m     const childNum = Number(outstationBooking.childNumber);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m180[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m180[0m     const infantNum = Number(outstationBooking.infantNumber);
+[7m   [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m185[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m185[0m     if(!outstationBooking.budget || outstationBooking.budget < 0) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m185[0m:[93m37[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m185[0m     if(!outstationBooking.budget || outstationBooking.budget < 0) {
+[7m   [0m [91m                                    ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m189[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m189[0m     if (outstationBooking.additionalRequirements && outstationBooking.additionalRequirements.length > 500) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/validation.util.ts[0m:[93m189[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outstationBooking'.
+
+[7m189[0m     if (outstationBooking.additionalRequirements && outstationBooking.additionalRequirements.length > 500) {
+[7m   [0m [91m                                                    ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)

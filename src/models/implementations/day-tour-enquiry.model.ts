@@ -1,7 +1,7 @@
 import { Schema, model } from "mongoose";
-import { IFlightEnquiry } from "../interfaces/IFlight-enquiry.model";
+import { IDayTourEnquiry } from "../interfaces/IDay-tour-enquiry.model";
 
-const flightEnquirySchema = new Schema<IFlightEnquiry>({
+const dayTourEnquirySchema = new Schema<IDayTourEnquiry>({
     fullName: {
         type: String,
         required: true
@@ -18,28 +18,20 @@ const flightEnquirySchema = new Schema<IFlightEnquiry>({
         type: String,
         required: true
     },
-    flightName: {
+    pickUp: {
         type: String,
         required: true
     },
-    tripSelection: {
+    dropOff: {
         type: String,
         required: true
     },
-    from: {
-        type: String,
-        required: true
-    },
-    to: {
-        type: String,
-        required: true
-    },
-    startDate: {
+    date: {
         type: Date,
         required: true
     },
-    endDate: {
-        type: Date,
+    time: {
+        type: String,
         required: true
     },
     adultNumber: {
@@ -54,11 +46,27 @@ const flightEnquirySchema = new Schema<IFlightEnquiry>({
         type: String,
         default: "0"
     },
+    vehicleType: {
+        type: String,
+        required: true
+    },
+    location: {
+        type: String,
+        required: true
+    },
+    activities: {
+        type: String,
+        required: true
+    },
+    budget: {
+        type: Number,
+        required: true
+    },
     additionalRequirements: {
         type: String,
     }
 });
 
-const FlightEnquiry = model<IFlightEnquiry>("flight-enquiry", flightEnquirySchema);
+const DayTourEnquiry = model<IDayTourEnquiry>("day-tour-enquiry", dayTourEnquirySchema);
 
-export default FlightEnquiry;
+export default DayTourEnquiry;

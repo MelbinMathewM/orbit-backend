@@ -1,7 +1,7 @@
 import { Schema, model } from "mongoose";
-import { IFlightEnquiry } from "../interfaces/IFlight-enquiry.model";
+import { IHotelBooking } from "../interfaces/IHotel-booking.model";
 
-const flightEnquirySchema = new Schema<IFlightEnquiry>({
+const hotelBookingSchema = new Schema<IHotelBooking>({
     fullName: {
         type: String,
         required: true
@@ -18,28 +18,16 @@ const flightEnquirySchema = new Schema<IFlightEnquiry>({
         type: String,
         required: true
     },
-    flightName: {
+    accommodationType: {
         type: String,
         required: true
     },
-    tripSelection: {
+    starRating: {
         type: String,
         required: true
     },
-    from: {
+    roomType: {
         type: String,
-        required: true
-    },
-    to: {
-        type: String,
-        required: true
-    },
-    startDate: {
-        type: Date,
-        required: true
-    },
-    endDate: {
-        type: Date,
         required: true
     },
     adultNumber: {
@@ -59,6 +47,6 @@ const flightEnquirySchema = new Schema<IFlightEnquiry>({
     }
 });
 
-const FlightEnquiry = model<IFlightEnquiry>("flight-enquiry", flightEnquirySchema);
+const HotelBooking = model<IHotelBooking>("hotel-booking", hotelBookingSchema);
 
-export default FlightEnquiry;
+export default HotelBooking;
