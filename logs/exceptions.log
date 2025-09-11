@@ -2888,3 +2888,419 @@ Stack Trace: TSError: ⨯ Unable to compile TypeScript:
     at Module.load (node:internal/modules/cjs/loader:1275:32)
     at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
     at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-09 12:57:23] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/booking.service.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingService' incorrectly implements interface 'IBookingService'.
+  Property 'getHotelBookings' is missing in type 'BookingService' but required in type 'IBookingService'.
+
+[7m13[0m export class BookingService implements IBookingService {
+[7m  [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96msrc/services/interfaces/IBooking.service.ts[0m:[93m12[0m:[93m5[0m
+    [7m12[0m     getHotelBookings(): Promise<IHotelBooking
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookings' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/booking.service.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingService' incorrectly implements interface 'IBookingService'.
+  Property 'getHotelBookings' is missing in type 'BookingService' but required in type 'IBookingService'.
+
+[7m13[0m export class BookingService implements IBookingService {
+[7m  [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96msrc/services/interfaces/IBooking.service.ts[0m:[93m12[0m:[93m5[0m
+    [7m12[0m     getHotelBookings(): Promise<IHotelBooking
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookings' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/booking.service.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingService' incorrectly implements interface 'IBookingService'.
+  Property 'getHotelBookings' is missing in type 'BookingService' but required in type 'IBookingService'.
+
+[7m13[0m export class BookingService implements IBookingService {
+[7m  [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96msrc/services/interfaces/IBooking.service.ts[0m:[93m12[0m:[93m5[0m
+    [7m12[0m     getHotelBookings(): Promise<IHotelBooking
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookings' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-09 12:57:28] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/booking.service.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingService' incorrectly implements interface 'IBookingService'.
+  Property 'getHotelBookings' is missing in type 'BookingService' but required in type 'IBookingService'.
+
+[7m13[0m export class BookingService implements IBookingService {
+[7m  [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96msrc/services/interfaces/IBooking.service.ts[0m:[93m12[0m:[93m5[0m
+    [7m12[0m     getHotelBookings(): Promise<IHotelBooking[]>;
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookings' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/booking.service.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingService' incorrectly implements interface 'IBookingService'.
+  Property 'getHotelBookings' is missing in type 'BookingService' but required in type 'IBookingService'.
+
+[7m13[0m export class BookingService implements IBookingService {
+[7m  [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96msrc/services/interfaces/IBooking.service.ts[0m:[93m12[0m:[93m5[0m
+    [7m12[0m     getHotelBookings(): Promise<IHotelBooking[]>;
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookings' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/booking.service.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingService' incorrectly implements interface 'IBookingService'.
+  Property 'getHotelBookings' is missing in type 'BookingService' but required in type 'IBookingService'.
+
+[7m13[0m export class BookingService implements IBookingService {
+[7m  [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96msrc/services/interfaces/IBooking.service.ts[0m:[93m12[0m:[93m5[0m
+    [7m12[0m     getHotelBookings(): Promise<IHotelBooking[]>;
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookings' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-09 12:58:36] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'getHotelBookings' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m13[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m9[0m:[93m5[0m
+    [7m9[0m     getHotelBookings(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookings' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'getHotelBookings' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m13[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m9[0m:[93m5[0m
+    [7m9[0m     getHotelBookings(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookings' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'getHotelBookings' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m13[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m9[0m:[93m5[0m
+    [7m9[0m     getHotelBookings(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookings' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-09 12:58:56] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'getHotelBookings' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m13[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m9[0m:[93m5[0m
+    [7m9[0m     getHotelBookings(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookings' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'getHotelBookings' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m13[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m9[0m:[93m5[0m
+    [7m9[0m     getHotelBookings(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookings' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'getHotelBookings' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m13[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m9[0m:[93m5[0m
+    [7m9[0m     getHotelBookings(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookings' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-09 13:13:19] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/booking.service.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingService' incorrectly implements interface 'IBookingService'.
+  Property 'getHotelBookingById' is missing in type 'BookingService' but required in type 'IBookingService'.
+
+[7m13[0m export class BookingService implements IBookingService {
+[7m  [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96msrc/services/interfaces/IBooking.service.ts[0m:[93m13[0m:[93m5[0m
+    [7m13[0m     getHotelBookingById(id: string): Promise<IHotelBooking | null>;
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookingById' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/booking.service.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingService' incorrectly implements interface 'IBookingService'.
+  Property 'getHotelBookingById' is missing in type 'BookingService' but required in type 'IBookingService'.
+
+[7m13[0m export class BookingService implements IBookingService {
+[7m  [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96msrc/services/interfaces/IBooking.service.ts[0m:[93m13[0m:[93m5[0m
+    [7m13[0m     getHotelBookingById(id: string): Promise<IHotelBooking | null>;
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookingById' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/implementations/booking.service.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingService' incorrectly implements interface 'IBookingService'.
+  Property 'getHotelBookingById' is missing in type 'BookingService' but required in type 'IBookingService'.
+
+[7m13[0m export class BookingService implements IBookingService {
+[7m  [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96msrc/services/interfaces/IBooking.service.ts[0m:[93m13[0m:[93m5[0m
+    [7m13[0m     getHotelBookingById(id: string): Promise<IHotelBooking | null>;
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookingById' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-09 13:14:21] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'getHotelBookingById' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m13[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m10[0m:[93m5[0m
+    [7m10[0m     getHotelBookingById(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookingById' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'getHotelBookingById' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m13[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m10[0m:[93m5[0m
+    [7m10[0m     getHotelBookingById(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookingById' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/implementations/booking.controller.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BookingController' incorrectly implements interface 'IBookingController'.
+  Property 'getHotelBookingById' is missing in type 'BookingController' but required in type 'IBookingController'.
+
+[7m13[0m export class BookingController implements IBookingController {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/interfaces/IBooking.controller.ts[0m:[93m10[0m:[93m5[0m
+    [7m10[0m     getHotelBookingById(req: Request, res: Response, next: NextFunction): Promise<void>;
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'getHotelBookingById' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+[2025-09-09 13:20:46] error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2551: [0mProperty 'getOutstationBookings' does not exist on type 'BookingController'. Did you mean 'postOutstationBooking'?
+
+[7m17[0m bookingRouter.post("/outstation-bookings", bookingController.getOutstationBookings.bind(bookingController));
+[7m  [0m [91m                                                             ~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/implementations/booking.controller.ts[0m:[93m101[0m:[93m11[0m
+    [7m101[0m     async postOutstationBooking(req: Request, res: Response, next: NextFunction): Promise<void> {
+    [7m   [0m [96m          ~~~~~~~~~~~~~~~~~~~~~[0m
+    'postOutstationBooking' is declared here.
+[96msrc/routes/booking.route.ts[0m:[93m18[0m:[93m66[0m - [91merror[0m[90m TS2551: [0mProperty 'getOutstationBookingById' does not exist on type 'BookingController'. Did you mean 'postOutstationBooking'?
+
+[7m18[0m bookingRouter.post("/outstation-bookings/:id", bookingController.getOutstationBookingById.bind(bookingController));
+[7m  [0m [91m                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/implementations/booking.controller.ts[0m:[93m101[0m:[93m11[0m
+    [7m101[0m     async postOutstationBooking(req: Request, res: Response, next: NextFunction): Promise<void> {
+    [7m   [0m [96m          ~~~~~~~~~~~~~~~~~~~~~[0m
+    'postOutstationBooking' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2551: [0mProperty 'getOutstationBookings' does not exist on type 'BookingController'. Did you mean 'postOutstationBooking'?
+
+[7m17[0m bookingRouter.post("/outstation-bookings", bookingController.getOutstationBookings.bind(bookingController));
+[7m  [0m [91m                                                             ~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/implementations/booking.controller.ts[0m:[93m101[0m:[93m11[0m
+    [7m101[0m     async postOutstationBooking(req: Request, res: Response, next: NextFunction): Promise<void> {
+    [7m   [0m [96m          ~~~~~~~~~~~~~~~~~~~~~[0m
+    'postOutstationBooking' is declared here.
+[96msrc/routes/booking.route.ts[0m:[93m18[0m:[93m66[0m - [91merror[0m[90m TS2551: [0mProperty 'getOutstationBookingById' does not exist on type 'BookingController'. Did you mean 'postOutstationBooking'?
+
+[7m18[0m bookingRouter.post("/outstation-bookings/:id", bookingController.getOutstationBookingById.bind(bookingController));
+[7m  [0m [91m                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/implementations/booking.controller.ts[0m:[93m101[0m:[93m11[0m
+    [7m101[0m     async postOutstationBooking(req: Request, res: Response, next: NextFunction): Promise<void> {
+    [7m   [0m [96m          ~~~~~~~~~~~~~~~~~~~~~[0m
+    'postOutstationBooking' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) 
+Stack Trace: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/booking.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2551: [0mProperty 'getOutstationBookings' does not exist on type 'BookingController'. Did you mean 'postOutstationBooking'?
+
+[7m17[0m bookingRouter.post("/outstation-bookings", bookingController.getOutstationBookings.bind(bookingController));
+[7m  [0m [91m                                                             ~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/implementations/booking.controller.ts[0m:[93m101[0m:[93m11[0m
+    [7m101[0m     async postOutstationBooking(req: Request, res: Response, next: NextFunction): Promise<void> {
+    [7m   [0m [96m          ~~~~~~~~~~~~~~~~~~~~~[0m
+    'postOutstationBooking' is declared here.
+[96msrc/routes/booking.route.ts[0m:[93m18[0m:[93m66[0m - [91merror[0m[90m TS2551: [0mProperty 'getOutstationBookingById' does not exist on type 'BookingController'. Did you mean 'postOutstationBooking'?
+
+[7m18[0m bookingRouter.post("/outstation-bookings/:id", bookingController.getOutstationBookingById.bind(bookingController));
+[7m  [0m [91m                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/implementations/booking.controller.ts[0m:[93m101[0m:[93m11[0m
+    [7m101[0m     async postOutstationBooking(req: Request, res: Response, next: NextFunction): Promise<void> {
+    [7m   [0m [96m          ~~~~~~~~~~~~~~~~~~~~~[0m
+    'postOutstationBooking' is declared here.
+
+    at createTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\User\Coding Items\Orbit-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)

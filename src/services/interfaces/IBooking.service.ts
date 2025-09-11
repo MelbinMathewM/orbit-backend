@@ -5,7 +5,18 @@ import { IOutstationBooking } from "../../models/interfaces/IOutstation-booking.
 
 export interface IBookingService {
     postFlightEnquiry(flightEnquiry: IFlightEnquiry): Promise<IFlightEnquiry>;
+    getFlightEnquiries(): Promise<IFlightEnquiry[]>;
+    getFlightEnquiryById(id: string): Promise<IFlightEnquiry | null>;
+    
     postHotelBooking(hotelBooking: IHotelBooking): Promise<IHotelBooking>;
+    getHotelBookings(): Promise<IHotelBooking[]>;
+    getHotelBookingById(id: string): Promise<IHotelBooking | null>;
+    
     postOutstationBooking(outstationBooking: IOutstationBooking): Promise<IOutstationBooking>;
+    getOutstationBookings(): Promise<IOutstationBooking[]>;
+    getOutstationBookingById(id: string): Promise<IOutstationBooking | null>;
+    
     postDayTourEnquiry(dayTourEnquiry: IDayTourEnquiry): Promise<IDayTourEnquiry>;
+    getDayTourEnquiries(): Promise<IDayTourEnquiry[]>;
+    getDayTourEnquiryById(id: string): Promise<IDayTourEnquiry | null>;
 }

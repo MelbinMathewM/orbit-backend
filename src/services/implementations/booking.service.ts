@@ -25,6 +25,20 @@ export class BookingService implements IBookingService {
         return newFlightEnquiry;
     };
 
+    async getFlightEnquiries(): Promise<IFlightEnquiry[]> {
+        
+        const flightEnquiries = await this._flightEnquiryRepository.findAll();
+
+        return flightEnquiries;
+    };
+
+    async getFlightEnquiryById(id: string): Promise<IFlightEnquiry | null> {
+        
+        const flightEnquiry = await this._flightEnquiryRepository.findById(id);
+
+        return flightEnquiry;
+    }
+
     async postHotelBooking(hotelBooking: IHotelBooking): Promise<IHotelBooking> {
 
         const newHotelBooking = await this._hotelBookingRepository.create(hotelBooking);
@@ -32,11 +46,39 @@ export class BookingService implements IBookingService {
         return newHotelBooking;
     };
 
+    async getHotelBookings(): Promise<IHotelBooking[]> {
+        
+        const hotelBookings = await this._hotelBookingRepository.findAll();
+
+        return hotelBookings;
+    };
+
+    async getHotelBookingById(id: string): Promise<IHotelBooking | null> {
+        
+        const hotelBooking = await this._hotelBookingRepository.findById(id);
+
+        return hotelBooking;
+    };
+    
     async postOutstationBooking(outstationBooking: IOutstationBooking): Promise<IOutstationBooking> {
         
         const newOutstationBooking = await this._outstationBookingRepository.create(outstationBooking);
-
+        
         return newOutstationBooking;
+    };
+
+    async getOutstationBookings(): Promise<IOutstationBooking[]> {
+        
+        const outstationBookings = await this._outstationBookingRepository.findAll();
+
+        return outstationBookings;
+    };
+
+    async getOutstationBookingById(id: string): Promise<IOutstationBooking | null> {
+        
+        const outstationBooking = await this._outstationBookingRepository.findById(id);
+
+        return outstationBooking;
     };
 
     async postDayTourEnquiry(dayTourEnquiry: IDayTourEnquiry): Promise<IDayTourEnquiry> {
@@ -44,5 +86,19 @@ export class BookingService implements IBookingService {
         const newDayTourEnquiry = await this._dayTourEnquiryRepository.create(dayTourEnquiry);
 
         return newDayTourEnquiry;
-    }
+    };
+
+    async getDayTourEnquiries(): Promise<IDayTourEnquiry[]> {
+        
+        const dayTourEnquiries = await this._dayTourEnquiryRepository.findAll();
+
+        return dayTourEnquiries;
+    };
+
+    async getDayTourEnquiryById(id: string): Promise<IDayTourEnquiry | null> {
+        
+        const dayTourEnquiry = await this._dayTourEnquiryRepository.findById(id);
+
+        return dayTourEnquiry;
+    };
 }

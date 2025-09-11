@@ -30,7 +30,31 @@ export class BookingController implements IBookingController {
         }catch(err){
             next(err);
         }
-    }
+    };
+
+    async getFlightEnquiries(req: Request, res: Response, next: NextFunction): Promise<void> {
+        try{
+
+            const flightEnquiries = await this._bookingService.getFlightEnquiries();
+
+            res.status(HttpStatus.OK).json({ flightEnquiries });
+        }catch(err){
+            next(err);
+        }
+    };
+
+    async getFlightEnquiryById(req: Request, res: Response, next: NextFunction): Promise<void> {
+        try{
+
+            const id = req.params.id;
+
+            const flightEnquiry = await this._bookingService.getFlightEnquiryById(id);
+
+            res.status(HttpStatus.OK).json({ flightEnquiry });
+        }catch(err){
+            next(err);
+        }
+    };
 
     async postHotelBooking(req: Request, res: Response, next: NextFunction): Promise<void> {
         try{
@@ -49,7 +73,30 @@ export class BookingController implements IBookingController {
         }catch(err){
             next(err);
         }
-    }
+    };
+
+    async getHotelBookings(req: Request, res: Response, next: NextFunction): Promise<void> {
+        try{
+            const hotelBookings = await this._bookingService.getHotelBookings();
+
+            res.status(HttpStatus.OK).json({ hotelBookings });
+        }catch(err){
+            next(err);
+        }
+    };
+
+    async getHotelBookingById(req: Request, res: Response, next: NextFunction): Promise<void> {
+        try{
+
+            const id = req.params.id;
+
+            const hotelBooking = await this._bookingService.getHotelBookingById(id);
+
+            res.status(HttpStatus.OK).json({ hotelBooking });
+        }catch(err){
+            next(err);
+        }
+    };
 
     async postOutstationBooking(req: Request, res: Response, next: NextFunction): Promise<void> {
         try{
@@ -68,7 +115,30 @@ export class BookingController implements IBookingController {
         }catch(err){
             next(err);
         }
-    }
+    };
+
+    async getOutstationBookings(req: Request, res: Response, next: NextFunction): Promise<void> {
+        try{
+            const outstationBookings = await this._bookingService.getOutstationBookings();
+
+            res.status(HttpStatus.OK).json({ outstationBookings });
+        }catch(err){
+            next(err);
+        }
+    };
+
+    async getOutstationBookingById(req: Request, res: Response, next: NextFunction): Promise<void> {
+        try{
+
+            const id = req.params.id;
+
+            const outstationBooking = await this._bookingService.getOutstationBookingById(id);
+
+            res.status(HttpStatus.OK).json({ outstationBooking });
+        }catch(err){
+            next(err);
+        }
+    };
 
     async postDayTourEnquiry(req: Request, res: Response, next: NextFunction): Promise<void> {
         try{
@@ -87,5 +157,28 @@ export class BookingController implements IBookingController {
         }catch(err){
             next(err);
         }
-    }
+    };
+
+    async getDayTourEnquiries(req: Request, res: Response, next: NextFunction): Promise<void> {
+        try{
+            const dayTourEnquiries = await this._bookingService.getDayTourEnquiries();
+
+            res.status(HttpStatus.OK).json({ dayTourEnquiries });
+        }catch(err){
+            next(err);
+        }
+    };
+
+    async getDayTourEnquiryById(req: Request, res: Response, next: NextFunction): Promise<void> {
+        try{
+
+            const id = req.params.id;
+
+            const dayTourEnquiry = await this._bookingService.getDayTourEnquiryById(id);
+
+            res.status(HttpStatus.OK).json({ dayTourEnquiry });
+        }catch(err){
+            next(err);
+        }
+    };
 }
