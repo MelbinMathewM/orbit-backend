@@ -22,10 +22,6 @@ const logger = winston.createLogger({
     ],
 });
 
-// Handle Uncaught Exceptions & Rejections
-logger.exceptions.handle(
-    new winston.transports.File({ filename: "logs/exceptions.log" })
-);
 process.on("unhandledRejection", (reason) => {
     logger.error(`Unhandled Rejection: ${reason}`);
 });

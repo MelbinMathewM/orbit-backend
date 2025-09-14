@@ -25,6 +25,8 @@ export class AuthController implements IAuthController {
         try {
             const { email, password } = req.body;
 
+            console.log("hoiii")
+
             const data = await this._authService.loginUser(email, password);
 
             res.cookie(`refreshToken`, data?.refreshToken, {

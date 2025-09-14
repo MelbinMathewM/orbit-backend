@@ -38,7 +38,7 @@ export class AuthService implements IAuthService {
 
         if(!isPasswordMatch) throw createHttpError(HttpStatus.UNAUTHORIZED, HttpResponse.PASSWORD_INCORRECT);
 
-        const payload = { id: user._id, role: user.role };
+        const payload = { id: user._id, name: user.name, email: user.email, role: user.role };
 
         const accessToken = generateAccessToken(payload);
         const refreshToken = generateRefreshToken(payload);
@@ -54,7 +54,7 @@ export class AuthService implements IAuthService {
 
         if (!decoded) throw createHttpError(HttpStatus.NO_CONTENT, HttpResponse.NO_DECODED_TOKEN);
 
-        const payload = { id: decoded.id, role: decoded.role }
+        const payload = { id: decoded.id, name: decoded.name, email: decoded.email, role: decoded.role }
 
         const newAccessToken = generateAccessToken(payload);
 
