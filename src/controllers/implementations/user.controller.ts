@@ -16,6 +16,8 @@ export class UserController implements IUserController {
         try{
             const contactData: IContactData = req.body.form;
 
+            console.log(contactData,'uu')
+
             await this._userService.postContactData(contactData);
 
             res.status(HttpStatus.OK).json({ message: HttpResponse.FORM_SUBMITTED });
