@@ -2,6 +2,7 @@ import { IDayTourEnquiry } from "../models/interfaces/IDay-tour-enquiry.model";
 import { IFlightEnquiry } from "../models/interfaces/IFlight-enquiry.model";
 import { IHotelBooking } from "../models/interfaces/IHotel-booking.model";
 import { IOutstationBooking } from "../models/interfaces/IOutstation-booking.model";
+import { IWellnessPackage } from "../models/interfaces/IWellness-package.model";
 
 export const flightEnquiryValidation = (flightEnquiry: IFlightEnquiry): string => {
     const errors: string[] = [];
@@ -192,3 +193,33 @@ export const dayTourEnquiryValidation = (dayTourEnquiry: IDayTourEnquiry): strin
 
     return errors[0];
 };
+
+export const wellnessPackageValidation = (wellnessPackage: IWellnessPackage): string => {
+    const errors: string[] = [];
+
+    if (!wellnessPackage.fullName?.trim()) errors.push("Full name is required");
+
+    if (!wellnessPackage.emailAddress) {
+        errors.push("Email address is required");
+    } else {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(wellnessPackage.emailAddress)) {
+            errors.push("Invalid email address");
+        }
+    }
+
+    if (!wellnessPackage.phoneNumber?.trim()) errors.push("Phone number is required");
+    if (!wellnessPackage.packageType) errors.push("Package type is required");
+    if (!wellnessPackage.numberOfDays) errors.push("Number of days is required");
+
+    const adultNum = Number(wellnessPackage.adultNumber);
+    if (isNaN(adultNum) || adultNum <= 0) {
+        errors.push("At least one adult is required");
+    }
+
+    if (wellnessPackage.additionalRequirements && wellnessPackage.additionalRequirements.length > 500) {
+        errors.push("Additional requirements should not exceed 500 characters");
+    }
+
+    return errors[0];
+}

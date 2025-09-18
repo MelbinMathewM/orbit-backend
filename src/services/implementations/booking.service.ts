@@ -8,6 +8,8 @@ import { IOutstationBookingRepository } from "../../repositories/interfaces/IOut
 import { IOutstationBooking } from "../../models/interfaces/IOutstation-booking.model";
 import { IDayTourEnquiryRepository } from "../../repositories/interfaces/IDay-tour-enquiry.repository";
 import { IDayTourEnquiry } from "../../models/interfaces/IDay-tour-enquiry.model";
+import { IWellnessPackage } from "../../models/interfaces/IWellness-package.model";
+import { IWellnessPackageRepository } from "../../repositories/interfaces/IWellness-package.repository";
 
 @injectable()
 export class BookingService implements IBookingService {
@@ -16,6 +18,7 @@ export class BookingService implements IBookingService {
         @inject("IHotelBookingRepository") private _hotelBookingRepository: IHotelBookingRepository,
         @inject("IOutstationBookingRepository") private _outstationBookingRepository: IOutstationBookingRepository,
         @inject("IDayTourEnquiryRepository") private _dayTourEnquiryRepository: IDayTourEnquiryRepository,
+        @inject("IWellnessPackageRepository") private _wellnessPackageRepository: IWellnessPackageRepository,
     ) {}
 
     async postFlightEnquiry(flightEnquiry: IFlightEnquiry): Promise<IFlightEnquiry> {
@@ -101,4 +104,25 @@ export class BookingService implements IBookingService {
 
         return dayTourEnquiry;
     };
+
+    async postWellnessPackage(wellnessPackage: IWellnessPackage): Promise<IWellnessPackage> {
+        
+        const newWellnessPackage = await this._wellnessPackageRepository.create(wellnessPackage);
+
+        return newWellnessPackage;
+    };
+
+    async getWellnessPackages(): Promise<IWellnessPackage[]> {
+        
+        const wellnessPackages = await this._wellnessPackageRepository.findAll();
+
+        return wellnessPackages;
+    };
+
+    async getWellnessPackageById(id: string): Promise<IWellnessPackage | null> {
+        
+        const wellnessPackage = await this._wellnessPackageRepository.findById(id);
+
+        return wellnessPackage;
+    }
 }

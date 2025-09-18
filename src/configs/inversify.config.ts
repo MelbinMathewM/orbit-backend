@@ -7,6 +7,7 @@ import { IFlightEnquiryRepository } from "../repositories/interfaces/IFlight-enq
 import { IHotelBookingRepository } from "../repositories/interfaces/IHotel-booking.repository";
 import { IOutstationBookingRepository } from "../repositories/interfaces/IOutstation-booking.repository";
 import { IDayTourEnquiryRepository } from "../repositories/interfaces/IDay-tour-enquiry.repository";
+import { IWellnessPackageRepository } from "../repositories/interfaces/IWellness-package.repository";
 
 import { IAuthService } from "../services/interfaces/IAuth.service";
 import { IBookingService } from "../services/interfaces/IBooking.service";
@@ -19,6 +20,7 @@ import { FlightEnquiryRepository } from "../repositories/implementations/flight-
 import { HotelBookingRepository } from "../repositories/implementations/hotel-booking.repository";
 import { OutstationBookingRepository } from "../repositories/implementations/outstation-booking.repository";
 import { DayTourEnquiryRepository } from "../repositories/implementations/day-tour-enquiry.repository";
+import { WellnessPackageRepository } from "../repositories/implementations/wellness-package.repository";
 
 import { AuthService } from "../services/implementations/auth.service";
 import { BookingService } from "../services/implementations/booking.service";
@@ -33,6 +35,7 @@ container.bind<IFlightEnquiryRepository>("IFlightEnquiryRepository").to(FlightEn
 container.bind<IHotelBookingRepository>("IHotelBookingRepository").to(HotelBookingRepository);
 container.bind<IOutstationBookingRepository>("IOutstationBookingRepository").to(OutstationBookingRepository);
 container.bind<IDayTourEnquiryRepository>("IDayTourEnquiryRepository").to(DayTourEnquiryRepository);
+container.bind<IWellnessPackageRepository>("IWellnessPackageRepository").to(WellnessPackageRepository);
 
 container.bind<IAuthService>(AuthService).toSelf();
 container.bind<IBookingService>(BookingService).toSelf();

@@ -16,4 +16,8 @@ export interface IBookingController {
     postDayTourEnquiry(req: Request, res: Response, next: NextFunction): Promise<void>;
     getDayTourEnquiries(req: Request, res: Response, next: NextFunction): Promise<void>;
     getDayTourEnquiryById(req: Request, res: Response, next: NextFunction): Promise<void>;
+
+    postWellnessPackage(req: Request, res: Response, next: NextFunction): Promise<void>;
+    getWellnessPackages(req: Request, res: Response, next: NextFunction): Promise<void>;
+    getWellnessPackageById(req: Request, res: Response, next: NextFunction): Promise<void>;
 }

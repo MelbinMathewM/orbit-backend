@@ -5,10 +5,11 @@ import { Request, Response, NextFunction } from "express";
 import { IFlightEnquiry } from "../../models/interfaces/IFlight-enquiry.model";
 import { HttpStatus } from "../../constants/status.constant";
 import { HttpResponse } from "../../constants/response.constant";
-import { dayTourEnquiryValidation, flightEnquiryValidation, hotelBookingValidation, outstationBookingValidation } from "../../utils/validation.util";
+import { dayTourEnquiryValidation, flightEnquiryValidation, hotelBookingValidation, outstationBookingValidation, wellnessPackageValidation } from "../../utils/validation.util";
 import { IHotelBooking } from "../../models/interfaces/IHotel-booking.model";
 import { IOutstationBooking } from "../../models/interfaces/IOutstation-booking.model";
 import { IDayTourEnquiry } from "../../models/interfaces/IDay-tour-enquiry.model";
+import { IWellnessPackage } from "../../models/interfaces/IWellness-package.model";
 
 export class BookingController implements IBookingController {
     constructor( @inject(BookingService) private _bookingService: BookingService) {}
@@ -177,6 +178,48 @@ export class BookingController implements IBookingController {
             const dayTourEnquiry = await this._bookingService.getDayTourEnquiryById(id);
 
             res.status(HttpStatus.OK).json({ dayTourEnquiry });
+        }catch(err){
+            next(err);
+        }
+    };
+
+    async postWellnessPackage(req: Request, res: Response, next: NextFunction): Promise<void> {
+        try{
+            const wellnessPackage: IWellnessPackage = req.body.form;
+
+            const error = wellnessPackageValidation(wellnessPackage);
+
+            if(error){
+                res.status(HttpStatus.BAD_REQUEST).json({ error });
+                return;
+            }
+
+            const newWellnessPackage = await this._bookingService.postWellnessPackage(wellnessPackage);
+
+            res.status(HttpStatus.CREATED).json({ message: HttpResponse.FORM_SUBMITTED, newWellnessPackage });
+        }catch(err){
+            next(err);
+        }
+    };
+
+    async getWellnessPackages(req: Request, res: Response, next: NextFunction): Promise<void> {
+        try{
+            const wellnessPackages = await this._bookingService.getWellnessPackages();
+
+            res.status(HttpStatus.OK).json({ wellnessPackages });
+        }catch(err){
+            next(err);
+        }
+    };
+
+    async getWellnessPackageById(req: Request, res: Response, next: NextFunction): Promise<void> {
+        try{
+
+            const id = req.params.id;
+
+            const wellnessPackage = await this._bookingService.getWellnessPackageById(id);
+
+            res.status(HttpStatus.OK).json({ wellnessPackage });
         }catch(err){
             next(err);
         }

@@ -21,4 +21,8 @@ bookingRouter.post("/day-tour-enquiry", bookingController.postDayTourEnquiry.bin
 bookingRouter.get("/day-tour-enquiries", bookingController.getDayTourEnquiries.bind(bookingController));
 bookingRouter.get("/day-tour-enquiries/:id", bookingController.getDayTourEnquiryById.bind(bookingController));
 
+bookingRouter.post("/wellness-package", bookingController.postWellnessPackage.bind(bookingController));
+bookingRouter.get("/wellness-packages", bookingController.getWellnessPackages.bind(bookingController));
+bookingRouter.get("/wellness-packages/:id", bookingController.getWellnessPackageById.bind(bookingController));
+
 export default bookingRouter;
