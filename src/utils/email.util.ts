@@ -18,7 +18,7 @@ export const sendEmail = async (subject: string, htmlContent: string) => {
         await transporter.sendMail({
             from: env.EMAIL_USER,
             to: env.EMAIL_USER,
-            subject,
+            subject: "hii",
             html: htmlContent,
         });
     } catch (error) {
