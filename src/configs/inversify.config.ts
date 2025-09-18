@@ -27,6 +27,10 @@ import { BookingService } from "../services/implementations/booking.service";
 
 import { AuthController } from "../controllers/implementations/auth.controller";
 import { BookingController } from "../controllers/implementations/booking.controller";
+import { IUserService } from "../services/interfaces/IUser.service";
+import { UserService } from "../services/implementations/user.service";
+import { IUserController } from "../controllers/interfaces/IUser.controller";
+import { UserController } from "../controllers/implementations/user.controller";
 
 const container = new Container({ defaultScope: "Singleton" });
 
@@ -39,8 +43,10 @@ container.bind<IWellnessPackageRepository>("IWellnessPackageRepository").to(Well
 
 container.bind<IAuthService>(AuthService).toSelf();
 container.bind<IBookingService>(BookingService).toSelf();
+container.bind<IUserService>(UserService).toSelf();
 
 container.bind<IAuthController>(AuthController).toSelf();
 container.bind<IBookingController>(BookingController).toSelf();
+container.bind<IUserController>(UserController).toSelf();
 
 export default container;

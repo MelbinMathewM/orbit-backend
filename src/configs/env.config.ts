@@ -18,5 +18,11 @@ export const env = {
     get JWT_REFRESH_SECRET() {
         return process.env.JWT_REFRESH_SECRET
     },
+    get EMAIL_USER() {
+        return process.env.EMAIL_USER;
+    },
+    get EMAIL_PASS() {
+        return process.env.EMAIL_PASS;
+    },
     
 }

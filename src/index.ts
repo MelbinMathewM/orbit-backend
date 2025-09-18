@@ -3,10 +3,10 @@ import dotenv from "dotenv";
 import cors from "cors";
 import { validateEnv } from "./utils/env-config.util";
 import connectDB from "./configs/db.config";
-import authRouter from "./routes/auth.admin";
-import adminRouter from "./routes/admin.route";
+import authRouter from "./routes/auth.route";
 import { errorHandler } from "./middlewares/error.middleware";
 import bookingRouter from "./routes/booking.route";
+import userRouter from "./routes/user.route";
 
 dotenv.config();
 validateEnv();
@@ -25,14 +25,9 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.get("/", (req,res,next) => {
-    console.log("hii");
-    next();
-})
-
 app.use("/api/booking/", bookingRouter);
 app.use("/api/auth/", authRouter);
-app.use("/api/admin/", adminRouter);
+app.use("/api/user/", userRouter);
 app.use(errorHandler);
 
 
